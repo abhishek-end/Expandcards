@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #1c1c1c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+.container {
+  width: 90vw;
+  display: flex;
+}
+.panel {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 80vh;
+  flex: 0.5;
+  margin: 10px;
+  position: relative;
+  transition: all 700ms ease;
+  border-radius: 50px;
+}
+
+.panel.active {
+  flex: 10;
+}
+#dot {
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  background: linear-gradient(to right, aquamarine, mediumpurple);
+  filter: blur(200px);
+  border-radius: 50%;
+}
