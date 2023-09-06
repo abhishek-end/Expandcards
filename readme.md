@@ -9,7 +9,6 @@ This project is a simple web application that allows users to expand and collaps
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Demo
 
@@ -21,12 +20,4 @@ You can see a live demo of the project [here](https://abhishek-end.github.io/Exp
 - Click on an expanded card to collapse it back to its original state.
 - Smooth animations for expanding and collapsing cards.
 
-## Getting Started
 
-To get started with this project, follow these steps:
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/abhishek-end/expand-cards.git
-   ```
